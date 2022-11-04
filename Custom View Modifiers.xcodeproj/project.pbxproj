@@ -12,6 +12,7 @@
 		BB44CF9625991FEF008B3EDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB44CF9525991FEF008B3EDF /* Assets.xcassets */; };
 		BB44CF9925991FEF008B3EDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB44CF9825991FEF008B3EDF /* Preview Assets.xcassets */; };
 		BBD79E9B259944220032DFDB /* MyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD79E9A259944220032DFDB /* MyImage.swift */; };
+		E44E56CA2915D0EA00665B19 /* Custom Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44E56C92915D0EA00665B19 /* Custom Modifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BB44CF9825991FEF008B3EDF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BB44CF9A25991FEF008B3EDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBD79E9A259944220032DFDB /* MyImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImage.swift; sourceTree = "<group>"; };
+		E44E56C92915D0EA00665B19 /* Custom Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Custom Modifiers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				BB44CF9125991FEF008B3EDF /* Custom_View_ModifiersApp.swift */,
 				BB44CF9325991FEF008B3EDF /* ContentView.swift */,
+				E44E56C92915D0EA00665B19 /* Custom Modifiers.swift */,
 				BBD79E9A259944220032DFDB /* MyImage.swift */,
 				BB44CF9525991FEF008B3EDF /* Assets.xcassets */,
 				BB44CF9A25991FEF008B3EDF /* Info.plist */,
@@ -143,6 +146,7 @@
 			files = (
 				BBD79E9B259944220032DFDB /* MyImage.swift in Sources */,
 				BB44CF9425991FEF008B3EDF /* ContentView.swift in Sources */,
+				E44E56CA2915D0EA00665B19 /* Custom Modifiers.swift in Sources */,
 				BB44CF9225991FEF008B3EDF /* Custom_View_ModifiersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,7 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello World")
+        List(MyImage.images) { image in
+            Image(image.name)
+                .displayImage(width: 300)
+                .overlayCaption(caption: image.caption)
+                .centerInList()
+
+        }
     }
 }
 
